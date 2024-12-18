@@ -1,1 +1,1 @@
-# promit-Alert-object
+# prompt-Alert-object
