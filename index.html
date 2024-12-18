@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./2node.js"></script>
+</head>
+<body>
+    <h1>using prompt and alert</h1>
+    <script>
+        let username= prompt("enter the name")
+        let money = prompt("enter the price")
+        let day = prompt("enter the day")
+        let fest = prompt(" enter the fest")
+        let product = prompt("enter the product")
+        let flip = prompt("enter the platform")
+        let obj = {
+            name:username,
+            product:product,
+            price:money,
+            day:day,
+            occassion:fest,
+            platform:flip
+           }
+           alert(`${obj.name} has purchased a ${obj.product} which costs ${obj.price} on ${obj.day} on occassion of ${obj.occassion} in ${obj.platform}`)
+        </script>
+</body>
+</html> 
