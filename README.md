@@ -1,1 +1,1 @@
-# JS-PROMPT-AND-ALERT
+# promit-Alert-object
